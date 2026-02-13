@@ -1,0 +1,47 @@
+# -*- coding: utf-8 -*-
+from setuptools import setup
+
+setup(
+    name='platformdirs',
+    version='4.5.1',
+    description='A small Python package for determining appropriate platform-specific dirs, e.g. a `user data dir`.',
+    maintainer_email='Bernát Gábor <gaborjbernat@gmail.com>, Julian Berman <Julian@GrayVines.com>, Ofek Lev <oss@ofek.dev>, Ronny Pfannschmidt <opensource@ronnypfannschmidt.de>',
+    classifiers=[
+        'Development Status :: 5 - Production/Stable',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
+        'Programming Language :: Python',
+        'Programming Language :: Python :: 3 :: Only',
+        'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
+        'Programming Language :: Python :: 3.12',
+        'Programming Language :: Python :: 3.13',
+        'Programming Language :: Python :: 3.14',
+        'Programming Language :: Python :: Implementation :: CPython',
+        'Programming Language :: Python :: Implementation :: PyPy',
+        'Topic :: Software Development :: Libraries :: Python Modules',
+    ],
+    extras_require={
+        'docs': [
+            'furo>=2025.9.25',
+            'proselint>=0.14',
+            'sphinx-autodoc-typehints>=3.2',
+            'sphinx>=8.2.3',
+        ],
+        'test': [
+            'appdirs==1.4.4',
+            'covdefaults>=2.3',
+            'pytest-cov>=7',
+            'pytest-mock>=3.15.1',
+            'pytest>=8.4.2',
+        ],
+        'type': [
+            'mypy>=1.18.2',
+        ],
+    },
+    packages=[
+        'platformdirs',
+    ],
+    package_dir={'': 'src'},
+)
