@@ -2,6 +2,6 @@
 *.egg-info
 /dist
 /.tox
-/src/platformdirs/version.py
 /report
 /docs/build
+.pybuild/
