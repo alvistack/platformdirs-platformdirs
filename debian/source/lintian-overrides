@@ -1,0 +1,5 @@
+python-platformdirs source: file-without-copyright-information
+python-platformdirs source: no-debian-changes
+python-platformdirs source: source-contains-prebuilt-windows-binary
+python-platformdirs source: source-is-missing
+python-platformdirs source: source-package-encodes-python-version
