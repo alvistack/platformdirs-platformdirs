@@ -1,0 +1,4 @@
+python3-platformdirs: copyright-without-copyright-notice
+python3-platformdirs: initial-upload-closes-no-bugs
+python3-platformdirs: no-manual-page
+python3-platformdirs: zero-byte-file-in-doc-directory
